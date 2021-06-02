@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Big+Shoulders+Inline+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 21px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      
+   
+    }
+
+    img{
+      margin: 40px 0 0 30px;
+    }
+
+    h1{
+      margin: 35px 0px 34px 25px;
+      font-family: 'Big Shoulders Inline Display', cursive;
+          }
+
+    p.big{
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      line-height: 1.8;
+      margin: 25px 15px 0px 25px;
+    }
+
+    .button{
+      background-color: hsl(0, 0%, 95%);
+      border: none;
+      color: #fb9300;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      margin: 60px 10px 0px 25px;
+      cursor: pointer;
+      border-radius: 80px;
+    }
+    .button2{
+      background-color: hsl(0, 0%, 95%);
+      color: #4b778d;
+    }
+
+    .button3{
+      background-color:hsl(0, 0%, 95%)f;
+      color: #114e60;
+    }
+   
+    .sedan{
+      background-color: hsl(31, 77%, 52%);
+      color:hsl(0, 0%, 95%);
+      font-family: 'Lexend Deca', sans-serif;
+      height: 400px;
+      width:200px;
+      padding: 10px;
+      overflow: hidden;
+      border-radius: 1em 0 0 1em; 
+      
+    }
+    .suvs{
+      background-color:hsl(184, 100%, 22%);
+      color:hsl(0, 0%, 95%);
+      font-family: 'Lexend Deca', sans-serif;
+      height: 400px;
+      width:200px;
+      padding: 10px;
+    }
+    .luxury{
+      background-color:hsl(179, 100%, 13%);
+      color:hsl(0, 0%, 95%);
+      font-family: 'Lexend Deca', sans-serif;
+      height: 400px;
+      width:200px;
+      padding: 10px;
+      overflow: hidden;
+      border-radius: 0 1em  1em 0; 
+    }
+  </style>
+ 
+</head>
+<body>
+
+  
+  
+    <div class="flex-container">
+         <div class="sedan" style="width: 250px; height: 490px;">
+          <img src="images/icon-sedans.svg" alt="icon of a small car.">
+            <h1>SEDANS</h1>
+            <p class="big">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+              or on your next road trip.</p>
+              <button class="button" style="height: 30px; width: 105px;">Learn More</button>   
+        </div>       
+
+        <div class="suvs" style="width: 250px; height: 490px">
+          <img src="images/icon-suvs.svg" alt="icon of an SUV.">
+            <h1>SUVS</h1>
+            <p class="big">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+              and off-road adventures.</p> 
+              <button class="button button2" style="height: 30px; width: 105px;">Learn More</button> 
+            </div>
+
+        <div class="luxury" style="width: 250px; height: 490px">
+          <img src="images/icon-luxury.svg" alt="icon of a luxury car.">
+            <h1>LUXURY</h1>
+            <p class="big"> Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+              rental and arrive in style.</p>
+              <button class="button button3" style="height: 30px; width: 105px;">Learn More</button> 
+            </div>
+          </div>   
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ngot Tuong</a>.
+  </div>
+</body>
+</html>
